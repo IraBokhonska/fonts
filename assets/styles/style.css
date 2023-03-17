@@ -1,24 +1,127 @@
-p {
-    font-family: ;
+body {
+  background-color: #FFFFFF;
 }
 
 .wrapper {
+  width: 100%;
+  padding: 0 120px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
 }
+
+.container {
+  max-width: 1200px;
+  color: #000000;
+  font-style: normal;
+}
+
+h1,
+h2 {
+  font-family: 'Francois One';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Farro';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+}
+
+p {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px; 
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.italic {
+font-style: italic;
+}
+
+.bold {
+font-weight: 700;
+}
+
+.bg-grey {
+  background-color: #C9C9C9;
+}
+
+/* ----------------header---------------------- */
+header {
+  padding: 13px 0;
+}
+
 .header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.container__block {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+}
+
+.header__menu {
+  width: 261px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+
 .eng {
+  font-family: 'Tourney';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
-.logo {
-}
+
+/* ------------main-------------- */
+
 .main__container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 70px;
 }
+
 .main__item {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
+}
+
+.main__chapter {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
