@@ -1,0 +1,24 @@
+p {
+    font-family: ;
+}
+
+.wrapper {
+}
+.header__container {
+}
+.eng {
+}
+.logo {
+}
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 70px;
+}
+.main__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
