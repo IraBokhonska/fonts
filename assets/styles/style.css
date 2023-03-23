@@ -20,6 +20,7 @@ section {
   justify-content: space-between;
   gap: 30px;
   margin-top: 150px;
+  border: 5px solid red;
 }
  
 .container {
@@ -84,6 +85,7 @@ header {
   align-items: center;
   background-color: #FFFFFF;
   padding: 13px 0;
+  z-index: 5;
 }
 
 .container__block {
@@ -119,6 +121,9 @@ li {
 }
 
 /*------------- aside------------- */
+aside {
+
+}
 .sidebar__container {
   max-width: 385px;
   min-height: 462px;
@@ -128,7 +133,11 @@ li {
   align-items: flex-start;
   gap: 70px;
   white-space: nowrap;
+  top: 150px;
+  position: sticky;
+  z-index: 3;
 }
+
 .subtitle-underline {
   padding: 0px 0px 10px;
   border-bottom: 1px solid #BDBDBD;
