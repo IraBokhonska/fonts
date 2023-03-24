@@ -20,7 +20,6 @@ section {
   justify-content: space-between;
   gap: 30px;
   margin-top: 150px;
-  border: 5px solid red;
 }
  
 .container {
@@ -71,6 +70,7 @@ font-weight: 700;
 }
 
 /* ----------------header---------------------- */
+
 header {
   margin: 0 auto;
 }
@@ -100,6 +100,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 10px;
 }
 
 li {
@@ -121,9 +122,7 @@ li {
 }
 
 /*------------- aside------------- */
-aside {
 
-}
 .sidebar__container {
   max-width: 385px;
   min-height: 462px;
@@ -147,7 +146,9 @@ aside {
 /* ------------main-------------- */
 main {
   max-width: 785px;
+  position: relative;
 }
+
 .divider {
   width: 100px;
   height: 8px;
@@ -156,10 +157,10 @@ main {
 }
 
 .main__container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 70px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 70px;
 }
 
 .main__content {
@@ -173,4 +174,19 @@ main {
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+
+.bg-image {
+  position: fixed;
+  top: 150px;
+  left: 55%;
+  width: 100%;
+  z-index: -1;
+}
+
+.image {
+  position: sticky;
+  top: 0;
+  left: 200px;
+  z-index: 4;
 }
