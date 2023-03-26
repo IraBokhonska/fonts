@@ -30,7 +30,7 @@ section {
 
 h1,
 h2 {
-  font-family: 'Francois One';
+  font-family: 'Francois One', sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 48px;
@@ -39,7 +39,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Farro';
+  font-family: 'Farro', sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
@@ -47,7 +47,7 @@ h3 {
 }
 
 p {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 28px;
   line-height: 48px; 
@@ -104,7 +104,7 @@ header {
 }
 
 li {
-  font-family: 'Staatliches';
+  font-family: 'Staatliches', display;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
